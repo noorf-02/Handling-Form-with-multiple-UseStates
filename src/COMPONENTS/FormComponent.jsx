@@ -21,6 +21,10 @@ function FormComponent() {
             <input type="text" className='border-1 w-[350px] py-2 px-4 rounded-3xl focus:outline-none border-gray-300' id='contact' name='contact' placeholder='+91 893329123' />
         </div>
 
+        <div>
+            <button className='bg-indigo-500 text-[17px] text-white font-medium py-1 px-4 rounded-3xl hover:bg-indigo-600' type='Submit'>Submit</button>
+        </div>
+
       </form>
     </div>
   )
